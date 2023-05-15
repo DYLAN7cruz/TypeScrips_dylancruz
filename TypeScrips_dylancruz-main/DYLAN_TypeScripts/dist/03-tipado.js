@@ -1,0 +1,25 @@
+"use strict";
+const productPrice = 12;
+let myname = "Diego";
+let myname2 = "Alexander";
+//myname = true;
+//myname2 = 5;
+myname = "Javier";
+(() => {
+    let myProductName = "Laptop Hp Blanca";
+    let myProductPrice = 500;
+    let myProductName2 = "Laptop Dell Gris";
+    let myProductPrice2 = 600;
+    let myProductName3 = "Laptop Asus Negra";
+    let myProductPrice3 = 700;
+    console.log(myProductName, myProductName2, myProductName3);
+    console.log(myProductPrice, myProductPrice2, myProductPrice3);
+    myProductName = "Celular Xiami Negro";
+    myProductName.toLowerCase();
+    console.log(myProductName);
+    myProductPrice = 100, 555;
+    myProductName2 = "Celular Tecno Spark";
+    myProductPrice.toFixed();
+    console.log(myProductName2);
+    console.log(myProductPrice);
+})();
